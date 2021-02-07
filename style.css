@@ -1,0 +1,48 @@
+:root {
+    --title: #333;
+    --background: #ededed;
+    --button-border: #333;
+    --button: #555;
+    --button-hover: #444;
+    --button-active: #333;
+    --border: #222;
+  }
+  
+  *,
+  *::before,
+  *::after {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+  }
+  
+  html {
+    font-family: "Roboto", sans-serif;
+    font-size: 62.5%;
+    line-height: 1.6;
+  }
+  
+  body {
+    background-color: var(--background);
+    font-size: 1.6rem;
+    text-align: center;
+  }
+  
+  header {
+    margin-top: 3rem;
+    padding: 2rem;
+    font-size: 3.2rem;
+  }
+
+.grid-container {
+    display: grid;
+    max-width: 500px;
+    min-height: 500px;
+    margin: 2rem auto;
+    border: 2px solid var(--border);
+  }
+  
+  .grid-element {
+    border: 1px solid var(--border);
+    background-color: var(--background);
+  }
